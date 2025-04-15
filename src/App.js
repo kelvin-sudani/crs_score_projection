@@ -337,7 +337,7 @@ function App() {
                   <Card>
                      <CardHeader><CardTitle className="text-center">Score Projection Timeline (Next 5 Years)</CardTitle></CardHeader>
                      <CardContent>
-                         <p className="text-xs text-center text-gray-500 mb-4">Shows score changes around birthdays & work anniversaries based on exact age and calculated CWE. Assumes other factors (from Calculator tab) remain constant.</p>
+                         <p className="text-xl font-bold text-center text-red-600 mb-4">Shows score changes around birthdays and work anniversaries based on exact age and calculated Canadian Work Experience. Assumes other factors (from Calculator tab) remain constant.</p>
                          {(!formData.birthday || !formData.canadianWorkStartDate) && ( <p className="text-sm text-center text-gray-500">Enter Date of Birth and Canadian Work Start Date above to see projections.</p> )}
                          {timelineProjections.length > 0 && (
                              <div className="overflow-x-auto">
